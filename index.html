@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>WEATHER APP</title>
+</head>
+
+<body>
+    <div class="search-box">
+        <input type="text" placeholder="search city" spellcheck="false">
+        <button><img src="./images/SeekPng.com_magnifying-glass-png-no_659285.png" alt="search-icon"></button>
+    </div>
+
+    <div class="error">invalid city name</div>
+
+    <div class="weather-info">
+
+        <div>
+            <p class="weather-description">shower</p>
+            <h1 class="city-name">tokyo</h1>
+        </div>
+
+        <div id="weather-info">
+
+            <h1 class="temp">15</h1><span class="censius ">°C</span>
+
+            <hr>
+
+            <div class="section">
+
+                <p class="feels-like">feels like:
+                    <span>70°C</span>
+                </p>
+
+                <p class="wind">wind:
+                    <span>5 mph</span>
+                </p>
+
+                <p class="humidity">humidity:
+                    <span> 69%</span>
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
